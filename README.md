@@ -22,8 +22,8 @@ A fun trivia quiz app that tests the user's knowledge across various topics. The
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/android-projects-collection.git
-   cd AndroidProjects
+   git clone https://github.com/ImthiyaszAlam/android-academic-personal-apps.git
+   cd android-academic-personal-apps
    ```
 
 2. **Open in Android Studio:**
