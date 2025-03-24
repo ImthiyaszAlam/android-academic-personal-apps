@@ -103,13 +103,17 @@ implementation "com.squareup.retrofit2:adapter-rxjava3:2.9.0"
 
 ```
 📂 MovieApp
-│── 📂 data               # Data layer (API, models, repository)
+│── 📂 network            # API Calls (Retrofit, RxKotlin)
+│── 📂 repository         # Data Handling & Business Logic
+│── 📂 data               # Data Models, Request & Response
+│   │── 📂 request        # API Request Models
+│   │── 📂 response       # API Response Models
 │── 📂 di                 # Dependency Injection (Koin)
 │── 📂 ui                 # UI Components (Jetpack Compose)
 │── 📂 viewmodel          # ViewModels for MVVM pattern
-│── 📂 utils              # Utility classes (error handling, extensions)
 │── 📝 README.md          # Project documentation
 │── 🏗️ build.gradle       # Project dependencies
+
 ```
 
 ---
@@ -130,7 +134,7 @@ implementation "com.squareup.retrofit2:adapter-rxjava3:2.9.0"
 
 ### ✅ Clone the Repository  
 ```sh
-git clone https://github.com/yourusername/MovieApp.git
+git clone https://github.com/ImthiyaszAlam/MovieDiscoveryApp
 ```
 
 ### ✅ Open the Project in Android Studio  
@@ -138,7 +142,7 @@ git clone https://github.com/yourusername/MovieApp.git
 - Sync **Gradle dependencies**.  
 
 ### ✅ Add Your Watchmode API Key  
-Replace `"your_api_key_here"` in `Constants.kt`:  
+Replace `"your_api_key_here"` in `MovieRepository.kt`:  
 ```kotlin
 const val API_KEY = "your_api_key_here"
 ```
@@ -151,16 +155,17 @@ const val API_KEY = "your_api_key_here"
 ## 📦 **Submission Details**  
 
 ### ✅ **GitHub Repository**  
-🔗 [GitHub Repo](https://github.com/yourusername/MovieApp)  
+🔗 [GitHub Repo](https://github.com/ImthiyaszAlam/MovieDiscoveryApp)  
 
 ### ✅ **APK for Testing**  
-📥 [Download APK](https://drive.google.com/your-apk-link)  
+📥 [Download APK](https://drive.google.com/file/d/13TpO1zxpnHKRnKCoOynCYsOy9DO15eYn/view?usp=sharing)  
 
 ### ✅ **Unit Test Cases Document**  
-📄 [Test Cases Document](https://drive.google.com/your-test-doc-link)  
+📄 [Test Cases Document](https://docs.google.com/document/d/1Jwe_95a8iYpb4IwOi6A-MjwN0xZIqL6dBf5mRAlWYIk/edit?usp=sharing)  
+
 
 ### ✅ **Code Walkthrough Video (Minimum 4 Inputs)**  
-🎥 [Watch Video](https://drive.google.com/your-video-link)  
+(to be updated)
 
 ---
 
@@ -183,3 +188,4 @@ I am excited about the opportunity to contribute my skills to your team and look
 
 ### 🏆 **Thank You for Reviewing My Submission!** 🚀🔥  
 
+Let me know if you'd like any modifications! 🚀
