@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Submission Results"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="2dp">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal">
+
+            <!-- TableLayout containing both Header and Data -->
+            <TableLayout
+                android:id="@+id/result_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="8dp"
+                android:shrinkColumns="1"
+                android:stretchColumns="1">
+
+                <!-- Header Row -->
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Q1"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Q2"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Q3"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Audio"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="GPS"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Time"
+                        android:textStyle="bold" />
+                </TableRow>
+
+            </TableLayout>
+
+        </HorizontalScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

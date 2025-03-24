@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/a_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/contactUs"
+        android:icon="@drawable/a_contact_us"
+        android:title="Contact Us" />
+    <item
+
+        android:id="@+id/privacyPolicy"
+        android:icon="@drawable/a_privacy_policy"
+        android:title="Privacy Policy" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/a_about"
+        android:title="About Us" />
+    <item
+        android:id="@+id/factPolicy"
+        android:icon="@drawable/a_fact_chek"
+        android:title="Fact Checking Policy" />
+    <item
+        android:id="@+id/correctionPolicy"
+        android:icon="@drawable/a_correction_policy"
+        android:title="Corrections Policy" />
+
+    <item
+        android:id="@+id/ethicsPolicy"
+        android:icon="@drawable/a_ethics_policy"
+        android:title="Ethics Policy" />
+    <item
+        android:id="@+id/editorialPolicy"
+        android:icon="@drawable/a_editorial_policy"
+        android:title="Editorial Policy" />
+    <item
+        android:id="@+id/ownershipPolicy"
+        android:icon="@drawable/a_ownership_policy"
+        android:title="Ownership Policy" />
+    <item
+        android:id="@+id/terms"
+        android:icon="@drawable/a_terms"
+        android:title="Terms of Use" />
+
+</menu>

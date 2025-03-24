@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="?attr/colorPrimaryDark"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="100dp"
+        android:src="@drawable/profile"
+        android:background="@color/white"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:text="PhoneApp"
+        android:textSize="24dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

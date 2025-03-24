@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "330628784838",
+    "firebase_url": "https://phoneapp-5ac78-default-rtdb.firebaseio.com",
+    "project_id": "phoneapp-5ac78",
+    "storage_bucket": "phoneapp-5ac78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330628784838:android:6c2333e7136f7488086dc7",
+        "android_client_info": {
+          "package_name": "com.example.phoneapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330628784838-buga8fm8c6sst5pi5guaf1pfr0fn0396.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phoneapp",
+            "certificate_hash": "036786a73c329a764ea6652812164280a8ee504f"
+          }
+        },
+        {
+          "client_id": "330628784838-46osoq5kam6p32t0mq1rbq2auu3q0t0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9W4IPvMrUhWfWX-0YXSd1f0o-27Ap28U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330628784838-46osoq5kam6p32t0mq1rbq2auu3q0t0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

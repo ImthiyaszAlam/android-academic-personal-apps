@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/a_home"
+        android:title="Home" />
+
+
+    <item
+        android:id="@+id/featured"
+        android:icon="@drawable/a_featured"
+        android:title="Featured" />
+
+
+    <item
+        android:id="@+id/watch"
+        android:icon="@drawable/a_watch_video"
+        android:title="What to Watch" />
+
+
+    <item
+        android:id="@+id/news"
+        android:icon="@drawable/a_reviews"
+        android:title="Latest  News &amp; Reviews" />
+
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/a_about"
+        android:title="About" />
+
+</menu>

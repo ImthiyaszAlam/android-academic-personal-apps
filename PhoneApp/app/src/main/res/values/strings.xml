@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PhoneApp</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="name">Name</string>
+    <string name="users_list">Users List</string>
+    <string name="call_manager">Call Manager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_0">0</string>
+    <string name="signup">SIGNUP</string>
+    <string name="login">LOGIN</string>
+    <string name="default_web_client_id">330628784838-46osoq5kam6p32t0mq1rbq2auu3q0t0v.apps.googleusercontent.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

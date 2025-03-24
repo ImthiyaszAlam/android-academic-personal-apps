@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/propertyName"
+        android:hint="Property Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/numberOfBlocks"
+        android:hint="Number of Blocks"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/numberOfFloors"
+        android:hint="Number of Floors"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:hint="Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/btn_bg"
+        android:id="@+id/currentLocationButton"
+        android:text="Show Current Location"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/btn_bg"
+        android:id="@+id/mapButton"
+        android:text="Select Location on Map"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/btn_bg"
+        android:id="@+id/saveButton"
+        android:text="Save Property"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

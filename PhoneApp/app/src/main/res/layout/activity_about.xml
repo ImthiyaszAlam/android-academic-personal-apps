@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AboutActivity">
+
+    <TextView
+        android:id="@+id/about_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="PhoneApp is a powerful tool designed to manage your contacts and phone settings with ease. It helps you stay organized and connected."
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/about_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Version: 1.0.0"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/about_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Developed by: Cloudsect"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/about_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Contact Us: support@cloudsect.com"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/about_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Website: www.cloudsect.com"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>
