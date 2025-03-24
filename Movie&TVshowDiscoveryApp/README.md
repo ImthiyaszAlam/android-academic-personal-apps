@@ -1,6 +1,4 @@
-Here’s a **high-quality README.md** that will impress recruiters by covering **your experience, implemented features, challenges faced, assumptions, evaluation criteria, and submission details** in a **professional and structured** way.  
 
----
 
 # 🎬 **Movie & TV Show Discovery App**  
 🚀 *An Android app built with Jetpack Compose & Watchmode API*  
