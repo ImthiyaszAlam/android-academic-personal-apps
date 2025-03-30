@@ -1,6 +1,6 @@
 # Android Projects Collection
 
-Welcome to my Android Projects repository! This repository contains a collection of five Android applications, each showcasing various features and functionalities in mobile app development. Below is a brief overview of each project included in this repo:
+Welcome to my Android Projects repository! This repository contains a collection of  Android applications, each showcasing various features and functionalities in mobile app development. Below is a brief overview of each project included in this repo:
 
 ## Projects Overview
 
