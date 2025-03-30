@@ -60,6 +60,12 @@ public class UserAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         notifyDataSetChanged();
     }
 
+    public void setUserList(List<User> newUserList) {
+        this.userList.clear();
+        this.userList.addAll(newUserList);
+        notifyDataSetChanged();
+    }
+
     static class UserViewHolder extends RecyclerView.ViewHolder {
         TextView name;
 

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PaginateX</string>
+    <string name="error_loading">Error loading data. Tap to retry.</string>
 </resources>
