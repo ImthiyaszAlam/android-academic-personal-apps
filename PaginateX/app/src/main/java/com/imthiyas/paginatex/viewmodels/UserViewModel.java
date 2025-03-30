@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel;
 
 import com.imthiyas.paginatex.model.User;
 import com.imthiyas.paginatex.model.UserResponse;
-import com.imthiyas.paginatex.network.RetrofitClient;
+import com.imthiyas.paginatex.api.RetrofitClient;
 
 import retrofit2.Call;
 import retrofit2.Callback;

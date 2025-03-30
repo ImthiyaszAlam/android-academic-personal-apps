@@ -1,4 +1,4 @@
-package com.imthiyas.paginatex.network;
+package com.imthiyas.paginatex.api;
 
 import com.imthiyas.paginatex.model.UserResponse;
 

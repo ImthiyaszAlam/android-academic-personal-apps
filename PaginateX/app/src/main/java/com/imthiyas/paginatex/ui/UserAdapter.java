@@ -1,4 +1,4 @@
-package com.imthiyas.paginatex.adapter;
+package com.imthiyas.paginatex.ui;
 
 import android.view.LayoutInflater;
 import android.view.View;

@@ -1,4 +1,4 @@
-package com.imthiyas.paginatex;
+package com.imthiyas.paginatex.ui;
 
 import android.os.Bundle;
 import android.view.View;
@@ -10,11 +10,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.imthiyas.paginatex.adapter.UserAdapter;
+import com.imthiyas.paginatex.R;
 import com.imthiyas.paginatex.viewmodels.UserViewModel;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private UserViewModel userViewModel;

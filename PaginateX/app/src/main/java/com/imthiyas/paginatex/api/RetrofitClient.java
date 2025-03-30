@@ -1,4 +1,4 @@
-package com.imthiyas.paginatex.network;
+package com.imthiyas.paginatex.api;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
