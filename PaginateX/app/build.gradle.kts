@@ -40,4 +40,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation (libs.recyclerview)
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+    implementation (libs.lifecycle.viewmodel)
+    implementation (libs.lifecycle.livedata)
 }
