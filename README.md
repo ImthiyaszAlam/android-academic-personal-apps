@@ -5,7 +5,7 @@ Welcome to my Android Projects repository! This repository contains a collection
 ## Projects Overview
 
 ### 1. **ChatApp**
-A real-time messaging application built using Firebase Realtime Database. This app enables users to sign up, log in, and chat with other users in real-time. Key features include user authentication (email and Google Sign-In), message notifications, and a clean, intuitive user interface.
+A real-time messaging application built using Firebase Realtime Database. This app enables users to sign up, log in, and chat with other users in real-time. Key features include user authentication (email and Google Sign-In), message notifications, and a clean and intuitive user interface.
 
 ### 2. **NewsApp**
 A news aggregation app that fetches the latest news articles from public APIs. Users can browse news by categories, search for specific topics, and read full articles within the app. The app uses RecyclerView for efficient scrolling and Retrofit for API calls.
