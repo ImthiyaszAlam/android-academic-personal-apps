@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Q1 Data -->
+    <TextView
+        android:id="@+id/q1_text"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Q1 Data"
+        android:textColor="@color/black" />
+
+    <!-- Q2 Data -->
+    <TextView
+        android:id="@+id/q2_text"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Q2 Data"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!-- Selfie Data -->
+        <ImageView
+            android:id="@+id/selfie_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/surveykshan_logo" />
+    </LinearLayout>    <!-- Audio Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/audio_button"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_bg"
+        android:drawableEnd="@drawable/play_btn"
+        android:drawablePadding="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Play"
+        android:textColor="@color/white" />
+
+    <!-- GPS Data -->
+    <TextView
+        android:id="@+id/gps_text"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="GPS Data"
+        android:textColor="@color/black" />
+
+    <!-- Time Data -->
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Time Data"
+        android:textColor="@color/black" />
+
+</LinearLayout>

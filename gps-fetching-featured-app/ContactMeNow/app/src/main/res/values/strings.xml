@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ContactMe</string>
+
+    <!-- Gender options for Spinner -->
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="hint_enter_age">Enter your age</string>
+</resources>
